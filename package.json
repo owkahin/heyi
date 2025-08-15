@@ -1,0 +1,18 @@
+{
+  "name": "rn-nextjs-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "web:dev": "npm --workspace apps/web run dev",
+    "mobile:dev": "npm --workspace apps/mobile run dev",
+    "lint": "eslint "**/*.{ts,tsx,js,jsx}" --ignore-path .gitignore",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "typescript": "^5.5.4"
+  }
+}

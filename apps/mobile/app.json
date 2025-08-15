@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "TasksMobile",
+    "slug": "tasks-mobile",
+    "scheme": "tasksmobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "sdkVersion": "51.0.0",
+    "plugins": [],
+    "extra": {
+      "eas": { "projectId": "dummy-project-id" }
+    }
+  }
+}
